@@ -7,7 +7,7 @@ document.getElementById("buscar").addEventListener("click", function () {
         return;
     }
 
-    let url = `https://goweather.herokuapp.com/weather/${cidade}`;
+    let url = 'https://goweather.herokuapp.com/weather/${cidade}';
 
     fetch(url)
         .then(response => {
